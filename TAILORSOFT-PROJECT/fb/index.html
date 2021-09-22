@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 2</title>
+	<style >
+		#header{
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	z-index: 7;
+	background-color: #415e9b;
+}
+
+#logo img{
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom:20px;
+
+	height: 120px;
+}
+#form1{
+	   width: 50%;
+	   float: left;
+	}
+	#email{
+		float: left;
+		padding-left: 30px;
+		padding-top: 50px;
+	}
+	#password{
+		float: left;
+		padding-left: 10px;
+		padding-top: 50px;
+	}
+	#button{
+		float: left;
+		padding-left: 20px;
+		padding-top: 50px;
+	}
+	.facebook-content{
+		float: left;
+		width: 50%;
+	}
+
+.facebook-content img{
+	padding-top: 50px;
+
+}
+.facebook-content p{
+	padding-top: 200px;
+	font-size: 30px;
+	padding-left: 50px;
+
+}
+.content-block{
+	margin: 0px auto;
+}
+.create-account{
+	float: left;
+	width: 50%;
+	padding-top: 200px;
+}
+#gender{
+	padding-top: 1s0px;
+}
+	</style>
+	<script >
+		function validation(){
+
+			var name=document.getElementById('name').value;
+			var email=document.getElementById('email').value;
+			var password=document.getElementById('password').value;
+
+			if(name==''|| email==''|| password==''){
+				alert('required');
+				return false;
+
+			}
+			else{
+				return true;
+			}
+
+		}
+	</script>
+</head>
+<body>
+  <div id="header">
+  	  <div id="logo">
+  	  	<img src="1.jpg">
+  	  </div> 
+
+  	  <div id="form1">
+  	  	        <div id="email">
+                   Email or phone
+  	               <input type="name/Email" name="Naman"><br>
+                   Keep Me Log in
+  	               <input type="checkbox" name="">
+  	            </div>
+  	              <div id="password">
+  	                  Password
+  	                  <input type="password" placeholder="*********"><br>
+  	                  <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar
+                       ">Forgetten Account?</a>   
+  	             </div>
+  	                <div id="button">
+  		         
+  		                   <button>Log In</button>
+  	                 </div>
+      </div>
+
+  	
+  </div>
+  
+
+  <div class="content-block">
+  	    <div class="facebook-content">
+  		         <p>Facebook helps you connect and share with the<br>
+  		         people in your life</p>
+  		         <img src="image2.png" >
+  	    </div>
+  	    <div class="create-account">
+  		      <h2>Create an account</h2>
+
+  		      <p>It's free and always will be.</p>
+
+  		  <div>
+  			<form  action="www.google.com" method="GET" >
+   	    <div>
+   	   	    <label><input name="first name" type="name" id="name" size="10px"          placeholder="first name"></label>
+   	   	    <label><input  name="last name" type="name" placeholder="last name"></label>
+   	    </div>
+   	  <div style="margin:20px 0px" >
+   	  	<input type="text"  placeholder="Email or Mobile number">
+   	  </div>
+   	  <div style="margin:20px 0px">
+   	  	<input type="password"  placeholder="Re-enter email or mobile number ">
+   	  </div>
+   	  <div style="margin:20px 0px">
+   	  	<input type="password"  placeholder="New password">
+   	  </div>
+   	  <div>
+   	  	<label>Birthday:<br>
+              <select>
+              	<option>Day</option>
+              	<option>1</option>
+              	<option>2</option>
+              	<option>3</option>
+              	<option>4</option>
+              	<option>5</option>
+              	<option>6</option>
+              	<option>7</option>
+              	<option>8</option>
+              </select>
+   	  	</label>
+   	  	<label>
+   	  		<select>
+   	  			<option>Month</option>
+   	  			<option>jan</option>
+   	  			<option>feb</option>
+   	  			<option>Mar</option>
+   	  			<option>Apr</option>
+   	  			<option>May</option>
+   	  			<option>Jun</option>
+   	  			<option>Jul</option>
+   	  			<option>Aug</option>
+   	  		</select>
+   	  	</label>
+   	  	<label>
+   	  		<select>
+   	  			<option>Year</option>
+   	  			<option>1999</option>
+   	  			<option>2000</option>
+   	  			<option>2001</option>
+   	  			<option>2002</option>
+   	  			<option>2003</option>
+   	  			<option>2004</option>
+   	  			<option>2005</option>
+   	  			<option>2006</option>
+   	  		</select>
+   	  	</label>
+   	  </div>
+   	  <div id="gender">
+   	  	Gender<br>
+   	  	<label>Female<input id="Female" type="radio" name="gender"></label>
+   	  	<label>Male<input id="Female" type="radio" name="gender"></label>
+   	  	<label>Custom<input id="custom" type="radio" name="gender"></label>
+   	  </div>
+   </form>
+   <h4>By Clicking Sign Up you agree to <strong style="color: blue">Terms</strong> and that you have <br>read our <strong style="color: blue">Data policy</strong>,incluing your cookies Use</h4>
+
+    <input type="submit" value="Submit">
+  		</div>
+  	</div>
+  </div>
+</body>
+</html>

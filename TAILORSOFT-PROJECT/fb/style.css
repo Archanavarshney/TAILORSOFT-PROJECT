@@ -1,0 +1,45 @@
+#header{
+	width: 100%;
+	display: inline-block;
+	position: absolute;
+	z-index: 7;
+	background-color: #415e9b;
+}
+#logo img{
+	width: 50%;
+	float: left;
+	padding-top: 30px;
+	padding-bottom:20px;
+
+	height: 140px;
+}
+#form1{
+	   width: 50%;
+	   float: left;
+	}
+	#email{
+		float: left;
+		padding-left: 30px;
+		padding-top: 50px;
+	}
+	#password{
+		float: left;
+		padding-left: 10px;
+		padding-top: 50px;
+	}
+	#button{
+		float: left;
+		padding-left: 20px;
+		padding-top: 50px;
+	}
+		.facebook-content{
+		float: left;
+		width: 50%;
+	}
+
+.facebook-content img{
+	padding-top: 50px;
+    margin-top: 70px;
+    margin-left: -70px;
+
+}
