@@ -15,3 +15,7 @@ Front-end : HTML/CSS
 Back-end : php
 
 Database : mySql
+
+# Code Editor used :
+
+Sublime Text
