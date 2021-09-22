@@ -1,12 +1,17 @@
 # TAILORSOFT-PROJECT
 
-Group Members
+
+# Group Members
 
 Archana varshney
+
 Prachi singh
 
-Technology used
+
+# Technology used
 
 Front-end : HTML/CSS
+
 Back-end : php
+
 Database : mySql
